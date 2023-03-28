@@ -1,0 +1,45 @@
+body {
+  background-image: url(table.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+h1 {
+  color: rgb(243, 183, 32);
+  border: black 2px;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  font-family: "DynaPuff", cursive;
+  color: rgb(8, 121, 42);
+  background-color: rgb(243, 183, 32);
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+button:hover {
+  background-color: aqua;
+}
+
+footer {
+  background: none;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: red;
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
